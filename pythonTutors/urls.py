@@ -22,7 +22,7 @@ from pythonTutors import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('users.urls')),
-    path('', include('posts.urls')),
+    path('', include('lessons.urls')),
     path('', views.api_root),
     path('', include('images.urls')),
 ]
