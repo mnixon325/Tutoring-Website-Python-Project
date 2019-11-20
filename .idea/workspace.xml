@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10caa9c4-bf1e-4a0a-b1c9-fc0c80365c4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/instagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/instagram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.instagram">
+  <component name="RunManager">
     <configuration name="Unnamed" type="DjangoTestsConfigurationType" nameIsGenerated="true">
       <module name="instagram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,10 +103,6 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Django server.instagram" />
-      <item itemvalue="Django tests.Unnamed" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -135,7 +134,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
