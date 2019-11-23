@@ -14,9 +14,13 @@ class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
 
 
+class Tutor(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
+
 
 """
 Possible additional user attributes:
 Profile page (a separate model?)
-
+Schedule (Two Users' schedules can be compared for a particular time range to see if
+both are available for a lesson).
 """
