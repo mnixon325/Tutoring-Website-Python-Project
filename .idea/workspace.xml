@@ -5,7 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/instagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/instagram.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/migrations/0002_auto_20191101_2055.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/migrations/0002_auto_20191119_2316.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20191119_2257.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +49,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1SwQCsuyedMKY0IkqWhKKK7ZXpq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tutor" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.instagram">
     <configuration name="Unnamed" type="DjangoTestsConfigurationType" nameIsGenerated="true">
       <module name="instagram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +114,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.instagram" />
+      <item itemvalue="Django tests.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,6 +138,9 @@
       <workItem from="1573058130370" duration="5890000" />
       <workItem from="1573167655644" duration="608000" />
       <workItem from="1573168295770" duration="1691000" />
+      <workItem from="1574269008969" duration="2612000" />
+      <workItem from="1574620375869" duration="54000" />
+      <workItem from="1574698962485" duration="840000" />
     </task>
     <servers />
   </component>
