@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10caa9c4-bf1e-4a0a-b1c9-fc0c80365c4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/instagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/instagram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/migrations/0002_auto_20191101_2055.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/migrations/0002_auto_20191119_2316.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTutors/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTutors/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20191119_2257.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +132,8 @@
       <workItem from="1574269008969" duration="2612000" />
       <workItem from="1574620375869" duration="54000" />
       <workItem from="1574698962485" duration="840000" />
+      <workItem from="1574700157603" duration="884000" />
+      <workItem from="1574701313658" duration="663000" />
     </task>
     <servers />
   </component>
