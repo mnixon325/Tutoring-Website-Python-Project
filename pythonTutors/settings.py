@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'users',
     'lessons',
     'images',
+    'messages.apps.MessagesConfig',
 ]
 
 MIDDLEWARE = [

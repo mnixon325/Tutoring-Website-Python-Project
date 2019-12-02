@@ -5,6 +5,7 @@ from rest_framework import permissions
 from rest_framework import generics
 from users.permissions import IsItselfOrReadOnly
 
+
 class UserList(generics.ListCreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer

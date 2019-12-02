@@ -25,6 +25,7 @@ urlpatterns = [
     path('', include('lessons.urls')),
     path('', views.api_root),
     path('', include('images.urls')),
+    path('', include('messages.urls')),
 ]
 
 urlpatterns += [

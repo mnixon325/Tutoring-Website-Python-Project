@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10caa9c4-bf1e-4a0a-b1c9-fc0c80365c4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/messages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/migrations/0002_auto_20191202_0954.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/migrations/0004_auto_20191202_1016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTutors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTutors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTutors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTutors/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTutors/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTutors/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +56,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SwQCsuyedMKY0IkqWhKKK7ZXpq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tutor" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -140,5 +159,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
