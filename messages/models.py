@@ -11,3 +11,8 @@ class Message(models.Model):
     # sender = models.ForeignKey(User, related_name="sender", on_delete=models.CASCADE, null=True)
     # receiver = models.ForeignKey(User, related_name="receiver", on_delete=models.CASCADE, null=True)
     content = models.TextField(blank=True)
+
+    # TODO: Automatically send an email to the receiver's email address when a message is
+    #  created. Use django.core.mail import send_mail :
+    #  https://docs.djangoproject.com/en/2.2/topics/email/
+    #  https://stackoverflow.com/questions/6367014/how-to-send-email-via-django
