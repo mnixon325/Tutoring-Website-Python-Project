@@ -3,10 +3,10 @@ from messages.models import Message
 
 
 class MessageSerializer(serializers.HyperlinkedModelSerializer):
-    sender = serializers.ReadOnlyField(source='user.username')
-    receiver = serializers.ReadOnlyField(source='user.username')
+    sender = serializers.CharField()
+    receiver = serializers.CharField()
 
     class Meta:
         model = Message
         fields = ('url', 'id', 'created', 'sender', 'receiver', 'content')
-        read_only_fields = ('created', 'content', 'sender', 'receiver', 'id')
+        read_only_fields = ('created', 'id')
