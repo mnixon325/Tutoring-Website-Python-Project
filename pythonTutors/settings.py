@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'lessons',
     'images',
     'messages.apps.MessagesConfig',
+    'django_extensions',
+    'dj_pagination',
+    'postman'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'postman.context_processors.inbox',
             ],
         },
     },

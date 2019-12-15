@@ -9,7 +9,7 @@ from messages.serializers import MessageSerializer
 
 
 class MessageList(generics.ListCreateAPIView):
-    queryset = Message.objects.all()
+    queryset = Message.objects.all().order_by('-created')
     serializer_class = MessageSerializer
 
     # def perform_create(self, serializer):

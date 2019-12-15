@@ -8,5 +8,5 @@ class MessageSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Message
-        fields = ('url', 'id', 'created', 'sender', 'receiver', 'content')
+        fields = ('url', 'id', 'created', 'sender', 'receiver', 'subject', 'content')
         read_only_fields = ('created', 'id')
