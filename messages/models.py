@@ -6,10 +6,10 @@ from users.models import User
 
 class Message(models.Model):
     created = models.DateTimeField(auto_now_add=True, null=True, blank=True)
-    sender = models.CharField(null=False, max_length=50)
-    receiver = models.CharField(null=False, max_length=50)
-    # sender = models.ForeignKey(User, related_name="sender", on_delete=models.CASCADE, null=True)
-    # receiver = models.ForeignKey(User, related_name="receiver", on_delete=models.CASCADE, null=True)
+    # sender = models.CharField(null=False, max_length=50)
+    # receiver = models.CharField(null=False, max_length=50)
+    sender = models.ForeignKey('users.User', related_name="sender", on_delete=models.CASCADE, null=True)
+    receiver = models.ForeignKey('users.User', related_name="receiver", on_delete=models.CASCADE, null=True)
     content = models.TextField(blank=True)
 
     # TODO: Automatically send an email to the receiver's email address when a message is

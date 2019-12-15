@@ -1,0 +1,9 @@
+Error: No such table: lessons_lesson, or something similar:
+Fix: Stop running the server, then try deleting all initial.py migrations in all the apps, then delete
+the sqlite3 database, then run "python manage.py makemigrations", then run "python manage.py migrate",
+then try running the server again. If that still does not work, try
+"python manage.py migrate --run-syncdb".
+
+To check details of SQL migrations:
+"python manage.py sqlmigrate myapp 0001_initial"
+
