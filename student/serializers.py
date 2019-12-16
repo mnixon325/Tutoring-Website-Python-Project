@@ -8,3 +8,10 @@ class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
         fields = ('url', 'id', 'owner', 'bio', 'img_profile', 'classes')
+
+class NotAStudentSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Student
+        fields = ('url', 'id', 'owner', 'bio', 'img_profile', 'classes')
+        read_only_fields = ('url', 'id', 'owner', 'bio', 'img_profile', 'classes')
