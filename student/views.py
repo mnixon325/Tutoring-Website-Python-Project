@@ -9,7 +9,6 @@ class StudentList(generics.ListCreateAPIView):
     queryset = Student.objects.all()
     #serializer_class = StudentSerializer
     def get_serializer_class(self):
-        #if self.action == 'create':
         if self.request.user.is_student:
             return StudentSerializer
         else:
