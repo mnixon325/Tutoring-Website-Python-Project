@@ -27,6 +27,8 @@ urlpatterns = [
     path('', include('images.urls')),
     path('', include('messages.urls')),
     path('', include('postman.urls')),
+    path('', include('student.urls')),
+    path('', include('tutor.urls')),
 ]
 
 urlpatterns += [

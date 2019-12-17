@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'django_extensions',
     'dj_pagination',
     'postman'
+    'student',
+    'tutor',
 ]
 
 MIDDLEWARE = [
