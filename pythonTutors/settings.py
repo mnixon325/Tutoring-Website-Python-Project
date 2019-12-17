@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'messages.apps.MessagesConfig',
     'django_extensions',
     'dj_pagination',
-    'postman'
+    'postman',
     'student',
     'tutor',
 ]
