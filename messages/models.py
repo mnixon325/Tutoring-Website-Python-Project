@@ -9,12 +9,17 @@ from users.models import User
 class Message(models.Model):
     "A message between two users (sender and receiver). Either or both can be tutors or students."
     created = models.DateTimeField(auto_now_add=True, null=True, blank=True)
-    sender = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
-                               related_name='+', null=True, blank=True)
-    receiver = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
-                                 related_name='+', null=True, blank=True)
+    sender = models.CharField(max_length=120)
+    receiver = models.CharField(max_length=120)
+    # sender = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+    #                            related_name='+', null=True, blank=True)
+    # receiver = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+    #                              related_name='+', null=True, blank=True)
     subject = models.CharField(max_length=120)
-    content = models.TextField(blank=True)
+    content = models.TextField(blank=True, max_length=1000)
+
+    def __str__(self):
+        return str(self.user.username)
 
     class Meta:
         verbose_name = "message"
