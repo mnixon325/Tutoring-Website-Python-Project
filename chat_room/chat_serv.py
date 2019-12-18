@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Server for multithreaded (asynchronous) chat application."""
+#Got this code from https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 # import chat_clnt
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread

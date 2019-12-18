@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Script for Tkinter GUI chat client."""
+#Got this code from https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 #from socket import AF_INET, socket, SOCK_STREAM
 from socket import *
 from threading import Thread
