@@ -19,6 +19,7 @@ from django.urls import path, include
 from django.conf.urls import include
 from pythonTutors import views
 
+# Defines all the relevant url patterns (mostly derived from models) for Python Tutors.
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('users.urls')),

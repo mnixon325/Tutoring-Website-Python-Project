@@ -73,7 +73,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'postman.context_processors.inbox',
+                'postman.context_processors.inbox',     # Allows use of the postman_unread_count variable.
             ],
         },
     },
@@ -135,9 +135,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
-# Azure Blob Storage
-DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
-AZURE_ACCOUNT_NAME = "michaelnixon"
-AZURE_ACCOUNT_KEY = "a1Qx/OCrEXc4l8HikVFzEBo+giJ/csNLNefBLXRaDdp5ObwbQweHPyYR4Z6tQO9yp1gIAOnle7h/wxBE1LKw+g=="
-AZURE_CONTAINER = "img"

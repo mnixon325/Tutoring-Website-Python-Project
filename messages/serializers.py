@@ -3,6 +3,9 @@ from messages.models import Message
 
 
 class MessageSerializer(serializers.HyperlinkedModelSerializer):
+    """
+    Defines the class to serialize Message models.
+    """
     sender = serializers.CharField(max_length=120)
     receiver = serializers.CharField(max_length=120)
 
