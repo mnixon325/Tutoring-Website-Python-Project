@@ -1,0 +1,12 @@
+In order to create a chat room, user needs to follow the following steps:
+
+1. Run chat_serv.py
+2. Run chat_clnt.py
+3. Enter
+	host: 127.0.0.1
+	port: 30000
+4. Go to python console and type:
+
+>> import chat_clnt <enter>
+ Enter host: 127.0.0.1
+ Enter port: 30000
