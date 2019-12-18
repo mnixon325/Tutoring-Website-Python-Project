@@ -3,7 +3,8 @@ https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 In order to create a chat room, user needs to follow the following steps:
 
 1. Run chat_serv.py by using the command: python chat_serv.py
-2. Open a new terminal window and run chat_clnt.py by using the command: python chat_clnt.py
-3. Enter
+2. Open a new terminal window and run: python manage.py runserver
+3. Open another new terminal window and run chat_clnt.py by using the command: python chat_clnt.py
+4. When prompted by the command line, enter:
 	host: 127.0.0.1
 	port: 8000
