@@ -25,7 +25,6 @@ urlpatterns = [
     path('', include('users.urls')),
     path('', include('lessons.urls')),
     path('', views.api_root),
-    path('', include('images.urls')),
     path('', include('messages.urls')),
     path('', include('postman.urls')),
     path('', include('student.urls')),

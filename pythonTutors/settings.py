@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'users',
     'lessons',
-    'images',
     'messages.apps.MessagesConfig',
     'django_extensions',
     'dj_pagination',
