@@ -1,3 +1,5 @@
+For information on how the chat room works, go to this link:
+https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 In order to create a chat room, user needs to follow the following steps:
 
 1. Run chat_serv.py by using the command: python chat_serv.py
